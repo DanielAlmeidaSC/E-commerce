@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #DBDBDB;
+}
+header{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav{
+    margin-top: 50px;
+    margin-right: 100px;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+    padding: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.icone-header{
+    height: 100px;
+    margin-left: 50px;
+}
+
+.line-for-links a{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    padding: 10px;
+}
+
+.line-for-links{
+    margin-top: 10px;
+    margin-left: 40px;
+}
+
+.first-block {
+    margin-top: 20px;
+    background-image: url(/img/First-block/One.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.centraliza{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.title-first-block{
+    margin-top: 300px;
+    color: #004aad;
+    font-size: 40px;
+    font-family: "Kanit", serif;
+    margin-bottom: 25px;
+}
+
+.centraliza a{
+    margin: auto;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    font-family: "Kanit", serif;
+    background-color: white;
+    width: 200px;
+    padding: 20px 10px;
+    border-radius: 25px;
+}
+
+.paragraph-first-block{
+    font-weight: 400;
+    font-family: "Kanit", serif;
+    margin-bottom: 50px;
+}
