@@ -29,6 +29,7 @@ nav a{
 }
 
 .line-for-links a{
+    margin-top: 30px;
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
     color: black;
@@ -36,29 +37,29 @@ nav a{
 }
 
 .line-for-links{
-    margin-top: 10px;
-    margin-left: 40px;
+  padding: 20px;
 }
 
 .first-block {
-    margin-top: 20px;
     background-image: url(/img/First-block/One.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     height: 100vh;
+    display: flex;
 }
 
 .centraliza{
-    display: flex;
     flex-direction: column;
     text-align: center;
+    margin: auto;
 }
 
 .title-first-block{
-    margin-top: 300px;
+    margin-top: 100px;
     color: #004aad;
     font-size: 40px;
+    font-weight: 300;
     font-family: "Kanit", serif;
     margin-bottom: 25px;
 }
@@ -73,10 +74,319 @@ nav a{
     width: 200px;
     padding: 20px 10px;
     border-radius: 25px;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 }
 
+.centraliza a:hover{
+    background-color: #082d5f;
+    color: white;
+    box-shadow: #082d5f 2px 0px 20px;
+}
 .paragraph-first-block{
     font-weight: 400;
     font-family: "Kanit", serif;
     margin-bottom: 50px;
+}
+
+.second-block{
+    gap: 50px;
+    display: flex;
+    height: 100vh;
+    justify-content: space-between;
+
+}
+
+.second-block-first-div-text{
+    display: flex;
+    flex-direction: column;
+    margin: 50px 0px 50px 50px;
+}
+.second-block-first-div{
+    display: flex;
+    color: white;
+    background-color: #082d5f;
+    margin-left: 200px;
+    margin-top: 50px;
+    width: 500px;
+    height: 500px;
+    background-image: url(/img/second-block/smartphone.png);
+    background-size: 200px;
+    background-repeat: no-repeat;
+    background-position: 300px 250px;
+}
+
+.second-block-first-div h3{
+    font-family: "Archivo", serif;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.second-block-first-div h1{
+    margin-top: 10px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 50px;
+
+}
+.second-block-first-div p{
+    font-family: "Quicksand", serif;
+    margin-bottom: 50px;
+}
+
+.second-block-first-div a{
+    font-family: "Quicksand", serif;
+    margin-bottom: 50px;
+    text-decoration: none;
+    color: black;
+    border-radius: 50px;
+    padding: 20px 10px;
+    width: 100px;
+    text-align: center;
+    background-color: white;
+    transition: transform 0.5s ease-in-out, background-color 0.5s ease-in-out;
+}
+
+.second-block-first-div a:hover{
+    background-color: #2fff00;
+    transform: scale(1.3);
+    
+}
+
+
+
+
+.second-block-second-div-text{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    margin: 50px 0px 50px 50px;
+}
+.second-block-second-div{
+    background-image: url(/img/second-block/fon.png);
+    background-size: 350px;
+    background-repeat: no-repeat;
+    background-position: 190px 150px;
+    display: flex;
+    color: white;
+    background-color: #730303;
+    margin-right: 200px;
+    margin-top: 50px;
+    width: 500px;
+    height: 500px;
+}
+
+.second-block-second-div h3{
+    font-family: "Archivo", serif;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.second-block-second-div h1{
+    margin-top: 10px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 25px;
+
+}
+.second-block-second-div p{
+    font-family: "Quicksand", serif;
+    margin-bottom: 50px;
+    margin-top: 20px;
+}
+
+.second-block-second-div a{
+    font-family: "Quicksand", serif;
+    margin-bottom: 50px;
+    text-decoration: none;
+    color: black;
+    border-radius: 50px;
+    padding: 20px 10px;
+    width: 100px;
+    text-align: center;
+    background-color: white;
+    transition: transform 0.5s ease-out, background-color 0.5s ease-in-out;
+}
+
+.second-block-second-div a:hover{
+    background-color: #2fff00;
+    transform: scale(1.3);
+    
+}
+
+.line-pros{
+    display: flex;
+    gap: 50px;
+    background-color: aliceblue;
+    padding: 50px;
+    justify-content: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 50px;
+    margin-bottom: 50px;
+}
+.line-pros img{
+    height: 100px;
+    display: flex;
+    margin: auto;
+}
+
+.phrases-line{
+    font-family: "Outfit", serif;
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.third-block {
+    background-image: url(/img/third-block/back.png);
+    background-size: cover;
+    background-repeat: no-repeat; 
+    padding: 50px;
+    height: 100dvh;
+    display: flex;
+    flex-direction: column; /* Coloca os itens um abaixo do outro */
+    align-items: center; /* Centraliza horizontalmente */
+    text-align: center; /* Garante que o texto fique centralizado */
+}
+
+.third-block img{
+    height: 250px;
+}
+
+.title-third-block{
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Centraliza verticalmente */
+    font-family: "Outfit", serif;
+}
+
+.produtos{
+    display: flex;
+    margin-top: 50px;
+}
+
+.new-products{
+    font-family: "Quicksand", serif;
+    text-align: start;
+    border: 2px solid black;
+    border-radius: 50px;
+    padding: 50px;
+}
+
+div > .new-products:not(:first-child) { /*todos os elementos, exceto o primeiro*/
+    margin-left: 20px; /* ou qualquer valor desejado */
+}
+  
+.new-products img{
+    transition: transform 1s linear;
+}
+.new-products img:hover{
+    transform: scale(1.1);
+
+}
+.comprar-buttom{
+    display: flex;
+    text-decoration: none;
+    background-color: #DBDBDB;
+    padding: 10px 20px;
+    margin-top: 20px;
+    justify-content: center;
+    color: black;
+    font-weight: 700;
+    transition: transform 0.3s ease-out, background-color 0.5s ease-in-out;
+}
+
+.comprar-buttom:hover{
+    transform: scale(1.1);
+    background-color: #730303;
+    color: white;
+}
+
+.fourth-block{
+    background-color: white;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.title-fourth-block{
+    font-size: 30px;
+    margin: 50px auto;
+    font-family: "Outfit", serif;
+    font-weight: bold;
+}
+.fourth-block img{
+    height: 150px;
+}
+
+.categories{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.categories img{
+    background-color: bisque;
+    border-radius: 100px;
+    transition: transform 0.5s ease-in;
+}
+
+.categories img:hover{
+    transform: scale(1.2);
+}
+
+.categories h1{
+    margin-bottom: 30px;
+}
+.container {
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr; /* Três colunas iguais */
+}
+
+.name{
+    font-size: 18px;
+    font-family: "Kanit", serif;
+    font-weight: 400;
+}
+
+.fifth-block{
+    background-image: url(/img/fifth-block/1.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 100px;
+    height: 100dvh;
+    display: flex;
+}
+
+.button-verify-1{
+    margin-top: 250px;
+    margin-left: 100px;    
+}
+
+.button-verify{
+    text-decoration: none;
+    font-family: "Kanit", serif;
+    background-image: linear-gradient(90deg, #0a0a30, #3533cd, #3533cd) ;
+    padding: 10px 20px 10px 30px;
+    border-radius: 50px;
+    color: white;
+    display: flex;
+}
+
+.button-verify-1 img{
+    height: 15px;
+    margin-top: 5px;
+    margin-left: 100px;
+}
+
+.sixth-block{
+    background-image: url(/img/sixth-block/sisxth-block.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.buttons-sociais img{
+    height: 50px;
 }
