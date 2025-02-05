@@ -45,7 +45,7 @@ nav a{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 100vh;
+    height: 100dvh;
     display: flex;
 }
 
@@ -385,8 +385,514 @@ div > .new-products:not(:first-child) { /*todos os elementos, exceto o primeiro*
     background-image: url(/img/sixth-block/sisxth-block.png);
     background-size: contain;
     background-repeat: no-repeat;
+    display: flex;
+    height: 100dvh;
 }
 
-.buttons-sociais img{
-    height: 50px;
+.buttons-sociais{
+    margin: 300px auto;
+    flex-direction: row;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+.container-button img{
+    height: 25px;
+    margin-right: 10px;
+}
+
+.container-button{
+    border-radius: 30px;
+    text-decoration: none;
+    background-color: white;
+    font-family: "Kanit", serif;
+    color: black;
+    padding: 10px 20px;
+    display: flex;
+    transition: transform 0.5s ease-in-out, background-color 0.5s ease-out;
+}
+
+div > .container-button:not(:first-child){
+    margin-left: 20px;
+}
+
+.container-button:hover{
+    transform: scale(1.2);
+    background-color: #004aad;
+}
+
+footer{
+    background-color: white;
+}
+
+.topicos{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr; /* Três colunas iguais */
+    margin-left: 50px;
+}
+
+
+.topicos h1{
+    margin-top: 50px;
+    font-family: "Archivo", serif;
+    font-weight: 500;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.topicos a{
+    display: flex;
+    text-decoration: none;
+    color: black;
+    font-family: "Outfit", serif;
+
+}
+
+.topicos p{
+    font-family: "Outfit", serif;
+}
+
+.creditos{
+    font-family: "Kanit", serif;
+    font-weight: 300;
+    font-size: 30px;
+    text-align: center;
+    padding: 20px;
+    background-color:#B79D9B;
+}
+
+hr{
+    margin-top: 50px;
+    border: none;
+}
+
+@media (max-width: 890px) {
+    header{
+        background-color: white;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    nav{
+        margin-top: 50px;
+        margin-right: 10px;
+    }
+    
+    nav a{
+        display: none;
+    }
+    .icone-header{
+        height: 100px;
+        margin: auto;
+    }
+
+    .line-for-links a{
+        margin-top: 10px;
+        border: 1px solid black;
+        text-decoration: none;
+        font-family: Arial, Helvetica, sans-serif;
+        color: black;
+        padding: 10px;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        font-size: 20px;
+    }
+    
+    .line-for-links{
+      padding: 20px;
+    }
+
+    
+.first-block {
+    background-image: url(/img/First-block/One.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 50dvh;
+    display: flex;
+}
+
+.centraliza{
+    flex-direction: column;
+    text-align: center;
+    margin: auto;
+}
+
+.title-first-block{
+    display: none;
+}
+
+.centraliza a{
+    margin: auto;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    font-family: "Kanit", serif;
+    background-color: white;
+    width: 200px;
+    padding: 20px 10px;
+    border-radius: 25px;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.centraliza a:hover{
+    background-color: #082d5f;
+    color: white;
+    box-shadow: #082d5f 2px 0px 20px;
+}
+.paragraph-first-block{
+    font-weight: 400;
+    width: 140px;
+    text-align: center;
+    margin: 30px auto;
+    font-family: "Kanit", serif;
+    margin-bottom: 30px;
+}
+
+
+
+.second-block{
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    height: 100dvh;
+    justify-content: space-between;
+
+}
+
+.second-block-first-div-text{
+    display: flex;
+    flex-direction: column;
+}
+.second-block-first-div{
+    display: flex;
+    margin-left: 10px;
+    margin-top: 50px;
+    width: 370px;
+    height: 350px;
+    border-radius: 60px;
+    background-position: 180px 190px;
+}
+
+.second-block-first-div h3{
+    font-family: "Archivo", serif;
+    font-weight: 300;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.second-block-first-div h1{
+    font-size: 40px;
+
+}
+.second-block-first-div p{
+    font-family: "Quicksand", serif;
+    margin-bottom: 50px;
+}
+
+
+
+.second-block-second-div-text{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    margin: 50px 0px 50px 50px;
+    }
+.second-block-second-div{
+    background-image: url(/img/second-block/fon.png);
+    background-size: 350px;
+    background-repeat: no-repeat;
+    background-position: 100px 180px;
+    display: flex;
+    margin-left: 10px;
+    margin-top: 50px;
+    width: 370px;
+    height: 500px;
+    border-radius: 50px;
+}
+
+.second-block-second-div h3{
+    font-family: "Archivo", serif;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.second-block-second-div h1{
+    margin-top: 10px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 25px;
+
+}
+.second-block-second-div p{
+    font-family: "Quicksand", serif;
+    margin-bottom: 50px;
+    margin-top: 20px;
+}
+
+.second-block-second-div a{
+    font-family: "Quicksand", serif;
+    text-decoration: none;
+    color: black;
+    border-radius: 50px;
+    margin-bottom: 10px;
+}
+
+
+.line-pros{
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Três colunas iguais */
+    gap: 30px;
+    background-color: aliceblue;
+    margin-top: 120px;
+    justify-content: center;
+    text-align: center;
+    border-radius: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+}
+.line-pros img{
+    height: 45px;
+    display: flex;
+    margin: auto;
+}
+
+.phrases-line{
+    font-family: "Outfit", serif;
+    font-size: 18px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+.third-block {
+    
+    background-image: url(/img/third-block/back.png);
+    background-size: cover;
+    background-repeat: no-repeat; 
+    padding: 50px;
+    height: 100dvh;
+    display: flex;
+    flex-direction: column; /* Coloca os itens um abaixo do outro */
+    align-items: center; /* Centraliza horizontalmente */
+    text-align: center; /* Garante que o texto fique centralizado */
+}
+
+.third-block img{
+    height: 100px;
+    
+}
+
+.title-third-block{
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Centraliza verticalmente */
+    font-family: "Outfit", serif;
+}
+
+.produtos{
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Três colunas iguais */
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+    gap: 20px;
+}
+
+.new-products{
+    font-family: "Quicksand", serif;
+    text-align: start;
+    border: 2px solid black;
+    border-radius: 50px;
+    padding: 30px;
+    margin-bottom: 50px;
+    row-gap: 20px;
+}
+
+div > .new-products:not(:first-child) { /*todos os elementos, exceto o primeiro*/
+    margin-left: 0px; /* ou qualquer valor desejado */
+}
+  
+.new-products img{
+    transition: transform 1s linear;
+}
+.new-products img:hover{
+    transform: scale(1.1);
+
+}
+.comprar-buttom{
+    display: flex;
+    text-decoration: none;
+    background-color: #DBDBDB;
+    padding: 5px 15px;
+    margin-top: 20px;
+    justify-content: center;
+    color: black;
+    font-weight: 700;
+    transition: transform 0.3s ease-out, background-color 0.5s ease-in-out;
+}
+
+.title-products{
+    color: white;
+    font-size: 15px;
+}
+
+.preco{
+    color: white;
+}
+
+
+.fourth-block{
+    background-color: white;
+    margin-top: 0px;
+    height: 500px;
+    margin-bottom: 0;
+    margin-right: 0;
+    margin-left: 0;
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    text-align: center;
+}
+
+.title-fourth-block{
+    font-size: 20px;
+    margin: 50px auto;
+    font-family: "Outfit", serif;
+    font-weight: bold;
+}
+.fourth-block img{
+    height: 150px;
+}
+
+.categories{
+    display: flex;
+    margin-left: 20px;
+    margin-right: 20px;
+    justify-content: flex-start;
+}
+
+.categories img{
+    background-color: bisque;
+    border-radius: 100px;
+    transition: transform 0.5s ease-in;
+    height: 100px;
+}
+
+.categories img:hover{
+    transform: scale(1.2);
+}
+
+.categories h1{
+    margin-bottom: 30px;
+}
+.container {
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr; /* Três colunas iguais */
+}
+
+.name{
+    font-size: 18px;
+    font-family: "Kanit", serif;
+    font-weight: 400;
+}
+
+
+.fifth-block{
+    background-image: url(/img//Mobile/1.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 10px;
+    margin-bottom: -260px;
+}
+
+.button-verify-1{
+    display: none;
+   
+}
+.sixth-block{
+    background-image: url(/img/Mobile/2.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    margin-top: 0px;
+}
+
+.buttons-sociais{
+    margin: 600px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr ; /* duas colunas iguais */
+    
+
+}
+
+#git{
+    display: none;
+}
+
+.container-button img{
+    height: 25px;
+    margin-right: 10px;
+}
+
+.container-button{
+    border-radius: 30px;
+    text-decoration: none;
+    background-color: white;
+    font-family: "Kanit", serif;
+    color: black;
+    padding: 10px 20px;
+    display: flex;
+    transition: transform 0.5s ease-in-out, background-color 0.5s ease-out;
+}
+
+
+.topicos{
+    display: grid;
+    grid-template-columns: 1fr 1fr ; /* Três colunas iguais */
+    margin-left: 50px;
+    gap: 10px;
+}
+
+
+.topicos h1{
+    margin-top: 50px;
+    font-family: "Archivo", serif;
+    font-weight: 500;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+.topicos a{
+    display: flex;
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+    font-family: "Outfit", serif;
+    
+}
+
+.topicos p{
+    font-size: 12px; 
+    margin-right: 50px;
+    width: 120px;
+    font-family: "Outfit", serif;
+}
+
+.creditos{
+    font-family: "Kanit", serif;
+    font-weight: 300;
+    font-size: 20px;
+    text-align: center;
+    padding: 20px;
+    background-color:#B79D9B;
+}
+
+hr{
+    margin-top: 50px;
+    border: none;
+}
 }
