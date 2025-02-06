@@ -372,7 +372,7 @@ div > .new-products:not(:first-child) { /*todos os elementos, exceto o primeiro*
     padding: 10px 20px 10px 30px;
     border-radius: 50px;
     color: white;
-    display: flex;
+    display: block;
 }
 
 .button-verify-1 img{
