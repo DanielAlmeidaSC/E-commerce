@@ -10,21 +10,23 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Outfit:wght@100..900&family=Quicksand:wght@300..700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
 </head>
+
 <body>
     
     <header>
-        <img src="/img/LOGO/STORE.png" alt="logotipo da loja" class="icone-header">
+        <img src="/img/LOGO/STORE.png" alt="logotipo da loja" class="icone-header" id="Logo">
         <nav>
                <a href="#">Home</a>
                 <a href="#">Produtos</a>
                 <a href="#">Contato</a>
+                <button class="modo-dark" onclick="modoDark()">Modo Dark</button>
         </nav>
 
     </header>
     <main>
         <section class="line-for-links">
             <a href="">Loja</a>
-            <a href="">Computadores</a>
+            <a href="/html/computadores.html">Computadores</a>
             <a href="">Tablets</a>
             <a href="">Celular</a>
             <a href="">TV</a>
@@ -35,7 +37,7 @@
             <div class="centraliza">
                 <h1 class="title-first-block">A sua melhor compra é aqui!</h1>
                 <p class="paragraph-first-block">produtos com até 50% de desconto!</p>
-                <a href="">COMPRAR AGORA!</a>
+                <a href="" >COMPRAR AGORA!</a>
             </div>
         </section>
 
@@ -59,7 +61,7 @@
             </div>
         </section>
         
-        <section class="line">
+        <section class="line" id="line">
                     <div class="line-pros">
                         <div class="retirada">
                             <img src="/img/second-block/icons/1.png" alt="Entregador">
@@ -119,7 +121,7 @@
             </div>
             </section>    
 
-            <section class="fourth-block">
+            <section class="fourth-block" id="fourth">
                 <div class="title-fourth-block">
                     COMPRE POR CATEGORIA
                 </div>
@@ -207,5 +209,7 @@
         <hr>
         <h1 class="creditos">Desenvolvido por Daniel Almeida</h1>
     </footer>
+
+    <script src="/js/index.js"></script>
 </body>
 </html>

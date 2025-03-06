@@ -23,6 +23,24 @@ nav a{
     padding: 50px;
     font-family: Arial, Helvetica, sans-serif;
 }
+
+.modo-dark{
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    margin-top: -10px;
+    border-radius: 100px;
+    border: 1px solid black;
+    background-color: #222222;
+    color: white;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.modo-dark:hover{
+    transform: scale(1.3);
+    transition: transform 0.5s ease;
+}
 .icone-header{
     height: 100px;
     margin-left: 50px;
@@ -214,8 +232,8 @@ nav a{
 .line-pros{
     display: flex;
     gap: 50px;
-    background-color: aliceblue;
     padding: 50px;
+    background-color: white;
     justify-content: center;
     margin-left: 50px;
     margin-right: 50px;
@@ -466,6 +484,63 @@ hr{
     border: none;
 }
 
+.sessao-produtos{
+    background-color: white;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+}
+.computadores {
+    padding: 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Exemplo: 3 colunas iguais */
+}
+
+.produtoPC{
+    display: flex;
+    flex-direction: column;
+    margin: 20px auto;
+    text-align: center;
+}
+.computadores img {
+    margin-top: 50px;
+    height: 250px;
+    display: flex;
+    grid-column: 3 / 4; /* Define a posição da imagem dentro do grid */
+}
+
+.title-pc {
+    grid-column: 1 / 2; /* Define a posição do título dentro do grid */
+    margin-top: 20px;
+    font-family: "Archivo", serif;
+    font-weight: 500;
+    width: 300px;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.preco-pc{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.comprarPC{
+    border-radius: 100px;
+    text-decoration: none;
+    color: white;
+    font-family: sans-serif;
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color: black;
+}
+
+#titlePC{
+    font-family: "Outfit", serif;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 50PX;
+}
 @media (max-width: 890px) {
     header{
         background-color: white;
@@ -896,3 +971,4 @@ hr{
     border: none;
 }
 }
+
