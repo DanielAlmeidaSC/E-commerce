@@ -19,7 +19,7 @@ function modoDark(){
     var line = window.document.getElementById('line-for-links');
     line.style.backgroundColor = "transparent";
     line.style.color = "black";
-
+    
     var cabecalho = window.document.getElementsByTagName('header')[0];
     cabecalho.style.backgroundColor = '#222222';
     var links = window.document.getElementsByTagName('a');
