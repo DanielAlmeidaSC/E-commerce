@@ -29,6 +29,7 @@ function modoDark(){
 
     var compreAgora = window.document.getElementById('buy-now');
     compreAgora.style.color = "black";
+    
     var logo = window.document.getElementsByClassName('icone-header');
     for(var i = 0; i < logo.length; i++){
     logo[i].src = "/img/modo-dark/logo.png";
