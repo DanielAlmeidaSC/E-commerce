@@ -56,13 +56,18 @@ nav a {
     font-family: Arial, Helvetica, sans-serif;
     color: black;
     padding: 10px;
+    font-weight: 600;
 }
 
 .line-for-links {
     padding: 5px;
     margin-bottom: 30px;
 }
-
+#line-for-links{
+    padding-top: 15px;
+    height: 30px;
+    background-color:antiquewhite;
+}
 .first-block {
     background-image: url(/img/First-block/One.png);
     background-repeat: no-repeat;
@@ -129,8 +134,9 @@ nav a {
 .second-block-first-div {
     display: flex;
     color: white;
-    background-color: #082d5f;
+    background-color: #222222;
     margin-left: 200px;
+    border-radius: 50px;
     margin-top: 50px;
     width: 500px;
     height: 500px;
@@ -162,8 +168,8 @@ nav a {
     font-family: "Quicksand", serif;
     margin-bottom: 50px;
     text-decoration: none;
-    color: black;
     border-radius: 50px;
+    color: black;
     padding: 20px 10px;
     width: 100px;
     text-align: center;
@@ -194,9 +200,10 @@ nav a {
     background-position: 190px 150px;
     display: flex;
     color: white;
-    background-color: #730303;
+    background-color: #222222;
     margin-right: 200px;
     margin-top: 50px;
+    border-radius: 50px;
     width: 500px;
     height: 500px;
 }
@@ -617,6 +624,10 @@ hr {
         padding: 10px;
     }
 
+    #line-for-links{
+        padding: 15px;
+        margin-bottom: 10px;
+    }
 
     .first-block {
         background-image: url(/img/First-block/One.png);
@@ -644,8 +655,9 @@ hr {
         color: black;
         font-family: "Kanit", serif;
         background-color: white;
-        width: 200px;
-        padding: 20px 10px;
+        width: 150px;
+        text-align: 5px;
+        padding: 15px 10px;
         border-radius: 25px;
         transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
     }
@@ -671,6 +683,7 @@ hr {
         gap: 10px;
         display: flex;
         flex-direction: column;
+        text-align: start;
         height: 100dvh;
         justify-content: space-between;
 
@@ -683,7 +696,7 @@ hr {
 
     .second-block-first-div {
         display: flex;
-        margin-left: 10px;
+        margin-left: 0px;
         margin-top: 50px;
         width: 370px;
         height: 350px;
@@ -723,7 +736,7 @@ hr {
         background-repeat: no-repeat;
         background-position: 100px 180px;
         display: flex;
-        margin-left: 10px;
+        margin-left: 0px;
         margin-top: 50px;
         width: 370px;
         height: 500px;
@@ -757,12 +770,15 @@ hr {
         margin-bottom: 10px;
     }
 
-
+    #line{
+        display: flex;
+        margin-top: 40px;
+    }
     .line-pros {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        /* Três colunas iguais */
-        gap: 30px;
+        margin-top: 50px;
+        gap: 20px;
         background-color: aliceblue;
         margin-top: 120px;
         justify-content: center;
@@ -956,7 +972,7 @@ hr {
     }
 
     .buttons-sociais {
-        margin: 600px auto;
+        margin: 550px auto;
         display: grid;
         grid-template-columns: 1fr 1fr;
         /* duas colunas iguais */
@@ -979,11 +995,14 @@ hr {
         background-color: white;
         font-family: "Kanit", serif;
         color: black;
-        padding: 10px 20px;
+        padding: 30px 20px;
         display: flex;
         transition: transform 0.5s ease-in-out, background-color 0.5s ease-out;
     }
 
+    .container-button{
+        align-items: center;
+    }
 
     .topicos {
         display: grid;
