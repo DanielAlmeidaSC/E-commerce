@@ -45,7 +45,9 @@ nav a {
 }
 
 .icone-header {
-    height: 100px;
+    height: 50px;
+    margin-top: 30px;
+    margin-bottom: 30px;
     margin-left: 50px;
 }
 
