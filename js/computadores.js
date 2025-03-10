@@ -1,11 +1,22 @@
-function modoDark(){
-    var buttonDark = window.document.getElementsByClassName('modo-dark');
-    for(var i = 0; i < buttonDark.length; i++){
-        buttonDark[i].style.backgroundColor = 'white';
-        buttonDark[i].style.color = 'black';
-        buttonDark[i].innerHTML = 'Modo Dark Ativado';
+let contadorClicks = 0;
 
+const buttonDark = window.document.getElementById('modo-dark');
+buttonDark.addEventListener('click', function(){
+    contadorClicks++;
+    
+    if(contadorClicks === 1){
+        modoDark();
+    }else if(contadorClicks === 2){
+        location.reload();
     }
+});
+function modoDark(){
+    var buttonDark = window.document.getElementById('modo-dark');
+        buttonDark.style.backgroundColor = 'white';
+        buttonDark.style.color = 'black';
+        buttonDark.innerHTML = 'Modo Light';
+
+
     var cabecalho = window.document.getElementsByTagName('header')[0];
     cabecalho.style.backgroundColor = '#222222';
     var links = window.document.getElementsByTagName('a');
@@ -34,4 +45,5 @@ function modoDark(){
         creditos[i].style.color = 'white';
     }
 }
+
 

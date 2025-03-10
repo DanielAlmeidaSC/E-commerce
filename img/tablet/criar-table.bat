@@ -1,0 +1,2 @@
+@echo off
+mkdir tvROKU50 tvSAMSUNG42 tvLG50 tvSEMP50 tvAOC50 tvSAMSUNG50
