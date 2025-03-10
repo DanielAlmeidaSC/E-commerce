@@ -26,10 +26,11 @@ function modoDark(){
 
     var line = window.document.getElementById('line-for-links');
     line.style.backgroundColor = "transparent";
+    line.style.color = "black";
 
     var compreAgora = window.document.getElementById('buy-now');
     compreAgora.style.color = "black";
-    
+
     var logo = window.document.getElementsByClassName('icone-header');
     for(var i = 0; i < logo.length; i++){
     logo[i].src = "/img/modo-dark/logo.png";
