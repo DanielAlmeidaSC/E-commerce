@@ -625,8 +625,8 @@ hr {
     }
 
     #line-for-links{
+        margin-bottom: -25px;
         padding: 15px;
-        margin-bottom: 10px;
     }
 
     .first-block {
