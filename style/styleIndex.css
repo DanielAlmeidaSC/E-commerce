@@ -52,7 +52,6 @@ nav a {
 }
 
 .line-for-links a {
-    margin-top: 30px;
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
     color: black;
@@ -60,7 +59,8 @@ nav a {
 }
 
 .line-for-links {
-    padding: 20px;
+    padding: 5px;
+    margin-bottom: 30px;
 }
 
 .first-block {
