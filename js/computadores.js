@@ -10,6 +10,7 @@ buttonDark.addEventListener('click', function(){
         location.reload();
     }
 });
+
 function modoDark(){
     var buttonDark = window.document.getElementById('modo-dark');
         buttonDark.style.backgroundColor = 'white';
@@ -47,6 +48,6 @@ function modoDark(){
         creditos[i].style.backgroundColor = 'purple';
         creditos[i].style.color = 'white';
     }
+
+    
 }
-
-

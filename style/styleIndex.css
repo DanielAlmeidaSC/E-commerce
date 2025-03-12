@@ -56,8 +56,7 @@ nav a {
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
     color: black;
-    padding: 10px;
-    font-weight: 600;
+    padding: 20px;
 }
 
 .line-for-links {
@@ -66,6 +65,7 @@ nav a {
 }
 #line-for-links{
     padding-top: 15px;
+    margin-bottom: -30px;
     height: 30px;
     background-color:antiquewhite;
 }
@@ -534,11 +534,14 @@ hr {
 .produtoPC {
     display: flex;
     flex-direction: column;
-    margin: 20px auto;
-    padding-top: 50px;
+    padding: 30px;
     text-align: center;
 }
 
+.produtoPC:hover{
+    background-color: rgba(128, 128, 128, 0.549);
+    border-radius: 50px;
+}
 .computadores img {
     cursor: pointer;
     margin-top: 50px;
@@ -546,8 +549,8 @@ hr {
     margin: auto;
     display: flex;
     grid-column: 3 / 4;
-    /* Define a posição da imagem dentro do grid */
 }
+
 
 .title-pc {
     grid-column: 1 / 2;
