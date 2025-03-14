@@ -140,3 +140,98 @@ function comprarPCAcer2(event){
     },1000);
 
 }
+
+//para tablets
+
+function comprarTabletS9(event){
+    event.preventDefault;
+
+    localStorage.setItem("novoTitulo", "Tablet Samsung Galaxy Tab S9 FE com Caneta 10,9'' 128GB 6GB RAM Android 14 Octa-Core Wi-Fi"); 
+    localStorage.setItem("novaMarca", "Marca: Samsung");
+    localStorage.setItem("novoPreco", "R$2.500,00");
+    localStorage.setItem("antigoPreco", "R$3.999,99");
+    localStorage.setItem("novoJuros", "ou R$262,50 em 10x sem juros!");
+    localStorage.setItem("novaImagem", "/img/tablet/tablet1/s9.jpg");
+
+    setTimeout(() =>{
+        window.location.href = "/html/descricaoProduto.html";
+    }, 1000);
+
+}
+
+function comprarTableta9(event){
+    event.preventDefault;
+
+    localStorage.setItem("novoTitulo", "Galaxy Tab A9+, Wifi, 11' polegadas, 4GB RAM, 64 GB, Câmera Principal 8 MP, Câmera Traseira 5 MP"); 
+    localStorage.setItem("novaMarca", "Marca: Samsung");
+    localStorage.setItem("novoPreco", "R$999,99");
+    localStorage.setItem("antigoPreco", "R$1.699,99");
+    localStorage.setItem("novoJuros", "ou R$104,99 em 10x sem juros!");
+    localStorage.setItem("novaImagem", "/img/tablet/tablet2/a9plus.jpg");
+
+    setTimeout(() =>{
+        window.location.href = "/html/descricaoProduto.html";
+    }, 1000);
+
+}
+
+function comprarIpad(event){
+    event.preventDefault();
+
+    localStorage.setItem("novoTitulo", "iPad Apple (10a geração): Com chip A14 Bionic, tela Liquid Retina de 10,9 polegadas, 64 GB Wi-Fi 6, câmera frontal de 12 MP, câmera traseira de 12 MP"); 
+    localStorage.setItem("novaMarca", "Marca: Apple");
+    localStorage.setItem("novoPreco", "R$4.000,00");
+    localStorage.setItem("antigoPreco", "R$6.999,99");
+    localStorage.setItem("novoJuros", "ou R$420,00 em 10x sem juros!");
+    localStorage.setItem("novaImagem", "/img/tablet/tablet3/ipad.jpeg");
+
+
+    setTimeout(()=>{
+        window.location.href = "/html/descricaoProduto.html"
+    },1000);
+
+}
+
+function comprarXiaomi(event){
+    event.preventDefault();
+    localStorage.setItem("novoTitulo", "Tablet Xiaomi Redmi Pad SE com Tela de 11'', 128GB, Wi-Fi, Android 11 e Processador Snapdragon 680 - Azul"); 
+    localStorage.setItem("novaMarca", "Marca: Xiaomi");
+    localStorage.setItem("novoPreco", "R$2.000,00");
+    localStorage.setItem("antigoPreco", "R$2.999,99");
+    localStorage.setItem("novoJuros", "ou R$210,00 em 10x sem juros!");
+    localStorage.setItem("novaImagem", "/img/tablet/tablet4/xiaomipa2d.jpg");
+
+    setTimeout(() =>{
+        window.location.href = "/html/descricaoProduto.html";
+    },1000);
+}
+
+function comprarA9e(event){
+    event.preventDefault();
+    localStorage.setItem("novoTitulo", "Tablet Samsung Tab A9+ 64gb 4gb Ram - 5G - Enterprise Edition Tela 11.0'' X216 Grafit"); 
+    localStorage.setItem("novaMarca", "Marca: Samsung");
+    localStorage.setItem("novoPreco", "R$2.000,00");
+    localStorage.setItem("antigoPreco", "R$2.999,99");
+    localStorage.setItem("novoJuros", "ou R$210,00 em 10x sem juros!");
+    localStorage.setItem("novaImagem", "/img/tablet/tablet5/a9e.jpg");
+
+    setTimeout(() =>{
+        window.location.href = "/html/descricaoProduto.html";
+    },1000);
+}
+
+function comprarVaio(event){
+    event.preventDefault();
+    localStorage.setItem("novoTitulo", "Tablet VAIO TL10 8GB 128GB Octa-Core, Tela 10.4” 2K, 4G WiFi, Câmera 8MP + Selfie 5MP, 7000mAh, Android 13, com Teclado de Conexão Inteligente – Preto"); 
+    localStorage.setItem("novaMarca", "Marca: Vaio");
+    localStorage.setItem("novoPreco", "R$1.500,00");
+    localStorage.setItem("antigoPreco", "R$2.000,00");
+    localStorage.setItem("novoJuros", "ou R$157,50 em 10x sem juros!");
+    localStorage.setItem("novaImagem", "/img/tablet/tablet6/vaio.png");
+
+    setTimeout(() =>{
+        window.location.href = "/html/descricaoProduto.html";
+    },1000);
+}
+
+

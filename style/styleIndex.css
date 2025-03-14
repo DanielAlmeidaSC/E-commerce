@@ -534,7 +534,8 @@ hr {
 .produtoPC {
     display: flex;
     flex-direction: column;
-    padding: 30px;
+    padding-top: 20px;
+    padding-bottom: 50px;
     text-align: center;
 }
 
@@ -545,20 +546,18 @@ hr {
 .computadores img {
     cursor: pointer;
     margin-top: 50px;
-    height: 200px;
+    height: 150px;
     margin: auto;
-    display: flex;
-    grid-column: 3 / 4;
 }
 
 
 .title-pc {
     grid-column: 1 / 2;
     /* Define a posição do título dentro do grid */
-    margin-top: 20px;
     font-family: "Archivo", serif;
     font-weight: 500;
-    width: 400px;
+    width: 350px;
+    margin: 20px auto;
     font-size: 18px;
     margin-bottom: 15px;
 
@@ -586,7 +585,7 @@ hr {
     font-family: "Outfit", serif;
     font-size: 50px;
     text-align: center;
-    padding-top: 50PX;
+    padding-top: 50px;
 }
 
 .product-information{
@@ -651,7 +650,7 @@ hr {
     flex-direction: column;
     font-family: Arial, Helvetica, sans-serif;
     color: black;
-    margin-top: 50px;
+    margin-top: 0px;
 }
 
 .offer-product{
@@ -670,6 +669,23 @@ hr {
     justify-content: center;
     width: 150px;
     margin: 52px auto;
+}
+
+.first-block-information-product{
+    background-color: white;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: -50px;
+    text-align: center;
+    padding: 50px;
+    font-size: 30px;
+    font-family: "Outfit", serif;
+}
+
+.wanted{
+    border: 1px solid black;
+    padding: 50px;
+    border-radius: 50px;
 }
 @media (max-width: 890px) {
     header {
@@ -1207,4 +1223,113 @@ hr {
         text-align: center;
         padding-top: 50PX;
     }
+
+    
+.product-information{
+    background-color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 100px;
+}
+
+.img-product img{
+    height: 250px;
+    margin: auto;
+    display: flex;
+}
+
+#line-produto{
+    background-color: black;
+}
+
+#title-offer-product{
+    margin-top: 10px;
+    width: 400px;
+    display: flex;
+    font-size: 20px;
+    font-family: "Outfit", serif;
+}
+
+.mark{
+    margin-bottom: -20px;
+    margin-top: 20px;
+    font-family: "Archivo", serif;
+}
+
+#oferta{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.price{
+    font-family: "Archivo", serif;
+}
+
+.old-price{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(86, 86, 86);
+    font-weight: 200;
+}
+
+.icones-product{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 50px;
+    
+}
+.icones-product img{
+    margin: auto;
+    height: 30px;
+    width: 30px;
+    margin-bottom: 20px;
+}
+
+.icones-product a{
+    margin: auto;
+    text-decoration: none;
+    display: flex;
+    padding: 5px;
+    text-align: center;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    margin-top: 10px;
+}
+
+.offer-product{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.buy-now-product{
+    text-decoration: none;
+    color: white;
+    font-family: "Archivo", serif;
+    background-color: #004aad;
+    padding: 20px 40px;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    width: 150px;
+    margin: 52px auto;
+}
+
+.first-block-information-product{
+    background-color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: -50px;
+    text-align: center;
+    padding: 30px;
+    font-size: 15px;
+    font-family: "Outfit", serif;
+}
+
+.wanted{
+    border: 1px solid black;
+    padding: 20px;
+    border-radius: 50px;
+}
 }
