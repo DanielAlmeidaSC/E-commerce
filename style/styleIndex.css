@@ -472,6 +472,7 @@ div>.container-button:not(:first-child) {
 
 footer {
     background-color: white;
+    bottom: 0;
 }
 
 .topicos {
@@ -686,6 +687,30 @@ hr {
     border: 1px solid black;
     padding: 50px;
     border-radius: 50px;
+}
+
+.description{
+    background-color: white;
+    margin-top: -100px;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-family: "Outfit", serif;
+    display: block;
+}
+
+.title-description{
+    margin-left: 50px;
+    margin-bottom: 30px;
+}
+#details{
+    margin-left: 50px;
+}
+
+#details p{
+    margin-top: 5px;
+    width: 500px;
+    padding: 20px;
+    background-color: rgba(128, 128, 128, 0.103);
 }
 @media (max-width: 890px) {
     header {

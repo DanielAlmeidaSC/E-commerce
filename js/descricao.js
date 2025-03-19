@@ -234,4 +234,96 @@ function comprarVaio(event){
     },1000);
 }
 
+function comprarA25(event){
+    event.preventDefault();
 
+    localStorage.setItem("novoTitulo", "Celular Samsung Galaxy A25 5G 128GB, 6GB RAM, Tela Infinita de 6.5''"); 
+    localStorage.setItem("novaMarca", "Marca: Samsung");
+    localStorage.setItem("novoPreco", "R$2.300,00");
+    localStorage.setItem("antigoPreco", "R$3.000,00");
+    localStorage.setItem("novoJuros", "ou R$241,50 em 10x sem juros!");
+    localStorage.setItem("novaImagem", "/img/celular/A25/CEL-1.png");
+
+    setTimeout(()=>
+    {
+        window.location.href = "/html/descricaoProduto.html";
+    },1000);
+}
+
+function comprarIphone14(event){
+    event.preventDefault();
+
+    localStorage.setItem("novoTitulo", "Apple iPhone 14 (128 GB)"); 
+    localStorage.setItem("novaMarca", "Marca: Apple");
+    localStorage.setItem("novoPreco", "R$4.000,00");
+    localStorage.setItem("antigoPreco", "R$6.500,00");
+    localStorage.setItem("novoJuros", "ou R$420,00 em 10x sem juros!");
+    localStorage.setItem("novaImagem", "/img/celular/Iphone 14/cel-2.png");
+
+    setTimeout(()=>{
+        window.location.href = "/html/descricaoProduto.html";
+    },1000);
+
+}
+
+function comprarInfinix(event){
+    event.preventDefault();
+
+    localStorage.setItem("novoTitulo", "Smartphone Infinix Note 40 5G 8GB RAM 256GB Câmera Tripla 108MP+ Selfie 32MP NFC 6,78'' AMOLED Dual Chip"); 
+    localStorage.setItem("novaMarca", "Marca: Infinix");
+    localStorage.setItem("novoPreco", "R$2.399,00");
+    localStorage.setItem("antigoPreco", "R$3.399,00");
+    localStorage.setItem("novoJuros", "ou R$251,89 em 10x sem juros!");
+    localStorage.setItem("novaImagem", "/img/celular/NOTE 13 PRO/cel-2.jpg");
+
+    setTimeout(()=>{
+        window.location.href = "/html/descricaoProduto.html";
+    },1000);
+
+
+}
+
+function comprarXiaomi(event){
+    event.preventDefault();
+
+    localStorage.setItem("novoTitulo", "Smartphone Xiaomi Redmi 12 256GB 8GB RAM Dual SIM Tela 6.79''"); 
+    localStorage.setItem("novaMarca", "Marca: Xiaomi");
+    localStorage.setItem("novoPreco", "R$1.399,00");
+    localStorage.setItem("antigoPreco", "R$3.399,00");
+    localStorage.setItem("novoJuros", "ou R$251,89 em 10x sem juros!");
+    localStorage.setItem("novaImagem", "/img/celular/NOTE 13 PRO/cel-2.jpg");
+
+    setTimeout(()=>{
+        window.location.href = "/html/descricaoProduto.html"
+    },1000);
+}
+
+function comprarS24(event){
+    event.preventDefault();
+
+    localStorage.setItem("novoTitulo", "Smartphone Samsung Galaxy S24, Galaxy AI, Selfie de 12MP, Tela de 6.2'' 1-120Hz, 256GB, 8GB RAM"); 
+    localStorage.setItem("novaMarca", "Marca: Samsung");
+    localStorage.setItem("novoPreco", "R$3.899,00");
+    localStorage.setItem("antigoPreco", "R$5.999,00");
+    localStorage.setItem("novoJuros", "ou R$409,39 em 10x sem juros!");
+    localStorage.setItem("novaImagem", "/img/celular/S24/cel-2.png");
+
+    setTimeout(() => {
+        window.location.href = "/html/descricaoProduto.html"
+    }, 1000);
+}
+
+function comprarS25(event){
+    event.preventDefault();
+
+    localStorage.setItem("novoTitulo", "Celular Samsung Galaxy S25 Ultra 5G, 512GB, 12GB RAM, Câmera Quádrupla de 200+50+10+50, Tela Grande de 6.9'', Preto"); 
+    localStorage.setItem("novaMarca", "Marca: Samsung");
+    localStorage.setItem("novoPreco", "R$5.500,00");
+    localStorage.setItem("antigoPreco", "R$7.999,00");
+    localStorage.setItem("novoJuros", "ou R$577,50 em 10x sem juros!");
+    localStorage.setItem("novaImagem", "/img/celular/S25/cel-1.png");
+
+    setTimeout(() => {
+        window.location.href = "/html/descricaoProduto.html"
+        }, 1000);
+}
